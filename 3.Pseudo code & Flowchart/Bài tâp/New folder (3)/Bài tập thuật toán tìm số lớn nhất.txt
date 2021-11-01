@@ -1,0 +1,16 @@
+Begin
+Input a1,a2,a3,...an
+      i là chữ số của dãy số
+Gán max=a1
+Gắn i=2
+While
+Do
+IF i>n
+DISPLAY "max"
+ELSE
+      IF ai > max
+      max =ai
+      i=i+1
+      End DO
+      END IF
+END
