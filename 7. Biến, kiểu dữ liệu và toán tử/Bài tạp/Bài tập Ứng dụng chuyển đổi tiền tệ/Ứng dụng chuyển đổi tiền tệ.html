@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table border="1">
+        <tr> <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currenc</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="nhapsotien"></td>
+            <td><select name="" id="s1">
+                <option value="viet">VietNam</option>
+            </select></td>
+            <td><select name="s2" id="s2">
+                <option value="my">USD</option>
+            </select></td>
+            <td><button type="button" onclick="chuyendoitiente()">convert</button></td>
+        </tr>
+    </table>
+    <p id="hien ket qua">ket qua</p>
+<script>
+    function chuyendoitiente() {
+       var a = document.getElementById("nhapsotien").value
+        c = a/23000;
+       document.getElementById("hien ket qua").innerHTML= c;
+    }
+</script>
+
+</form>
+</body>
+</html> 
